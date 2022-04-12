@@ -220,7 +220,7 @@ def length(l):
 def divide(i):
     return i/2
 def sum(i):
-    return i/2 + 65
+    return i/2 + 6
 sum(divide(10))
             
 
