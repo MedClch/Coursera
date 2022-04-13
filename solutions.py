@@ -396,7 +396,7 @@ def checkingIfIn(a,direction=True,d={'apple':2,'pear':1,'fruits':19,'orange':5,'
             return d[a]
 c_false=checkingIfIn('guava')
 c_true=checkingIfIn('apples',False,{'carrots':5,'beans':15,'califlower':8,'peas':30,'beetroot':1})
-fruit_ans=checkingIfIn('fruit')
+fruit_ans=checkingIfIn('fruits')
 param_check=checkingIfIn('califlower',False,{'carrots':5,'beans':15,'califlower':8,'peas':30,'beetroot':1})
 
 
