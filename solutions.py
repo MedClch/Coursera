@@ -407,7 +407,62 @@ param_check=checkingIfIn('califlower',False,{'carrots':5,'beans':15,'califlower'
 
 
 
-        #semaine 5 Partie 1 : 
+                    
+
+
+
+
+
+
+
+
+
+       #semaine 5 Partie 1 : 
+sorted_letters = sorted(letters,reverse=True)
+
+
+
+animals_sorted=sorted(animals)
+
+
+
+
+alphabetical=sorted(medals)
+
+
+
+top_three=sorted(medals.keys(),key=lambda x:medals[x],reverse=True)[:3]
+
+
+
+most_needed=sorted(groceries.keys(),key=lambda x:groceries[x],reverse=True)
+
+
+
+def last_four(x):
+    return (str(x)[-4:])
+
+ids = [17573005, 17572342, 17579000, 17570002, 17572345, 17579329]
+last_four(ids)
+sorted_ids=sorted(ids,key=last_four)
+
+
+
+sorted_id=sorted(ids,key=lambda x:str(x)[-4:])
+
+
+
+lambda_sort=sorted(ex_lst,key=lambda x:x[1])
+
+
+
+
+
+
+
+
+
+        #semaine 5 Partie 2 : 
 punctuation_chars=["'",'"',",",".","!",":",";","#","@"]
 def strip_pnuctuation(s):
     for ch in punctuation_chars:
