@@ -174,7 +174,7 @@ for i in p.lower():
     if i not in low_d:
         low_d[i]=1
     else:
-        low_d[i]=letter_counts[i]+1
+        low_d[i]=low_d[i]+1
             
 
 
